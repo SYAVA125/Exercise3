@@ -18,5 +18,7 @@ int main() {
   printf("Die 1: %d\n",number1);
   printf("Die 2: %d\n",number2);
   printf("Total value: %d\n",sum);
+  if(sum>=7) printf("You won!\n");
+  else printf("You lose!\n");
   return 0;
 }
