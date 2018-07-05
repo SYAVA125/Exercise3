@@ -7,6 +7,7 @@ int main() {
   double r;
   char name[30];
   int sum;
+  char name[30];
 
   srand(time(NULL));
   
