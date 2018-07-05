@@ -13,7 +13,7 @@ int main() {
   printf("What is your name?\n > ");
   scanf("%s",name);
   printf("Hello,%s!\n",name);
-
+  
   number1 = rand() % 6 + 1;
   number2 = rand() % 6 + 1;
 
