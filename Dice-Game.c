@@ -5,10 +5,15 @@
 int main() {
   int number1,number2;
   double r;
+  char name[30];
   int sum;
 
   srand(time(NULL));
-
+  
+  printf("What is your name?\n > ");
+  scanf("%s",name);
+  printf("Hello,%s!\n",name);
+  
   number1 = rand() % 6 + 1;
   number2 = rand() % 6 + 1;
 
